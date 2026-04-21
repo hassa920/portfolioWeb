@@ -1,11 +1,17 @@
-import React from 'react'
+import React from "react";
+import "../css/about.css";
+import AboutShowcaseSections from "../Component/AboutShowcaseSections";
+import AchievementShowcase from "../Component/AchievementShowcase";
+import StartProjectContact from "../Component/StartProjectContact";
 
 const About = () => {
   return (
-    <div>
-      <h1 style={{color:"red"}}>Hi from about page</h1>
-    </div>
-  )
-}
+    <main className="about-page">
+      <AboutShowcaseSections />
+      <AchievementShowcase />
+      <StartProjectContact />
+    </main>
+  );
+};
 
-export default About
+export default About;
