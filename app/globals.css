@@ -1,6 +1,29 @@
- body {
+
+
+:root {
+  --font-retimoa: "Retimoa Straight", system-ui, -apple-system, "Segoe UI",
+                  Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+html, body, #__next { height: 100%; }
+
+body {
   margin: 0;
   padding: 0;
   background-color: #000000;
 
 }
+
+
+/* Make form controls inherit the document font (fixes <button> / <input> using system font) */
+button, input, select, textarea {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+/* Optional: ensure any custom "button" wrappers inherit font too */
+.project-btn {
+  font-family: inherit;
+}
+

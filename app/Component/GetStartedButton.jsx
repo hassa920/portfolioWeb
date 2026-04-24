@@ -2,8 +2,8 @@ import Link from "next/link";
 import React from "react";
 
 const GetStartedButton = ({
-  text = "Let's Get Started",
-  className = "project-btn",
+  text,
+  className,
   type = "button",
 }) => {
   return (

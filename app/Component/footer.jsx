@@ -76,7 +76,7 @@ export default function Footer() {
             </form>
             <div className="footer-phone-number">
               <span className="footer-phone-icon">📞</span>
-              <a href="tel:+15038918921" className="footer-phone-link">(503) 381-8921</a>
+              <a href="tel:+15038918921" className="footer-phone-link">+18885811741</a>
             </div>
           </div>
         </div>

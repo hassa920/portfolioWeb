@@ -3,13 +3,18 @@ import React from 'react'
 import Link from 'next/link'
 import '../css/header.css'
 import { usePathname } from 'next/navigation'
+import Image from 'next/image'
 
 const Header = () => {
     const pathname=usePathname()
   return (
     <header className="header">
-      <img src='https://yoursaio.com/wp-content/uploads/2025/11/Yaio-logo.webp' alt='logo' />
-
+    <Image 
+        src="/images/logo.png" 
+        alt="logo" 
+        width={120} 
+        height={50}
+      />
       
       <nav className="nav">
         <Link href="/" className={pathname === '/' ? 'active' : ''}>Home</Link>

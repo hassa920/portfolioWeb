@@ -16,7 +16,7 @@ const TopBar = () => {
 
       <div className="topbar-right">
         <FiPhone size={16} className="topbar-icon" />
-        <span>Call us: <strong>(503) 381-8921</strong></span>
+        <span>Call us: <strong> +18885811741</strong></span>
 
         <span className="divider">|</span>
 

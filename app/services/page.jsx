@@ -205,7 +205,7 @@ const Service = () => {
               <textarea rows={4} name="message" required></textarea>
             </label>
             <button type="submit" className="services-send-btn">
-              <span>→</span> Send
+              Send
             </button>
           </form>
         </div>

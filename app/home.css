@@ -18,15 +18,14 @@
 
 /* Base container for the hero section */
 .hero-container {
-  background-color: #000000;
-  height: 100vh;
+  height: 80vh;
   display: flex;
   justify-content: center;
   align-items: center;
   position: relative;
   overflow: hidden;
   color: white;
-  font-family: sans-serif; /* You can change this to 'Inter' if you have it */
+
 }
 
 /* Optional animated orbit line (currently disabled) */
@@ -220,7 +219,6 @@
   background-color: #120129;
   color: white;
   padding: 100px 20px;
-  font-family: 'Inter', sans-serif;
   text-align: center;
 }
 
@@ -234,7 +232,6 @@
   background-color: #120129;
   color: white;
   padding: 60px 20px;
-  font-family: 'Inter', sans-serif;
   text-align: center;
   overflow-x: hidden;
 }
@@ -302,7 +299,7 @@
   border-radius: 15px;
   display: flex;
   align-items: center;
-  padding: 8px 8px 8px 20px;
+  padding: 15px 15px 15px 20px;
   cursor: pointer;
   gap: 15px;
   width: fit-content;
@@ -342,7 +339,6 @@
   display: flex;
   align-items: center;
   color: white;
-  font-family: sans-serif;
   font-size: 1.5rem;
   font-weight: 700;
   padding: 0 40px;
@@ -375,7 +371,6 @@
   background-color: #000;
   color: #fff;
   padding: 50px 24px;
-  font-family: 'Inter', sans-serif;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -435,7 +430,6 @@
   background-color: #000;
   color: white;
   padding: 10px 20px;
-  font-family: 'Inter', sans-serif;
   overflow: hidden;
   position: relative;
 }
@@ -564,7 +558,6 @@
 
 /* Title Styling */
 .clients-title {
-  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
   font-size: 52px;
   font-weight: 700;
   color: #ffffff;
@@ -730,7 +723,7 @@
 @media (min-width: 768px) {
   /* Responsive hero title */
   .main-title {
-    font-size: 4rem;
+    font-size: 3rem;
   }
 
   /* Middle row layout - horizontal on tablet+ */

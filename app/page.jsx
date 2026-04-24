@@ -136,11 +136,7 @@ const images = [
 
         {/* The Purple/White Button */}
         <button className="services-btn">
-          <div className="arrow-box">
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="black" strokeWidth="3">
-              <path d="M5 12h14M12 5l7 7-7 7" strokeLinecap="round" strokeLinejoin="round"/>
-            </svg>
-          </div>
+       
           <Link href="/services" className='btn-text'>Services</Link>
    
         </button>
@@ -191,12 +187,7 @@ const images = [
         {/* Action Button */}
         <button className="cta-button">
           <span style={{ fontWeight: 'bold', fontSize: '1.1rem' }}>Get Your Free Audit</span>
-          <div className="arrow-box">
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round">
-              <line x1="5" y1="12" x2="19" y2="12"></line>
-              <polyline points="12 5 19 12 12 19"></polyline>
-            </svg>
-          </div>
+      
         </button>
       </div>
     {/* </div> */}

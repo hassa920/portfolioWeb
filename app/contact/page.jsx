@@ -12,17 +12,16 @@ const contactHighlights = [
   {
     id: "email",
     title: "Email Address",
-    description: "info@yoursaio.com",
+    description: "info@domyaio.com",
     icon: "✉️",
   },
   {
     id: "phone",
     title: "Phone No",
-    description: "(503) 381-8921",
+    description: "+18885811741",
     icon: "📞",
   },
 ];
-
 const Contact = () => {
   return (
     <main className="contact-page">
